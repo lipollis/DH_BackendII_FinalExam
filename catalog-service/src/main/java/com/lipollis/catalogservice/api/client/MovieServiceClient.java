@@ -1,6 +1,6 @@
 package com.lipollis.catalogservice.api.client;
 
-import com.example.catalogservice.domain.model.Movie;
+import com.lipollis.catalogservice.model.Movie;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

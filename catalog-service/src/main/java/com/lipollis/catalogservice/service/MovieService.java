@@ -1,6 +1,6 @@
 package com.lipollis.catalogservice.service;
 
-import com.example.catalogservice.domain.model.Movie;
+import com.lipollis.catalogservice.model.Movie;
 
 import java.util.List;
 

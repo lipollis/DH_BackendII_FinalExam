@@ -1,7 +1,7 @@
 package com.lipollis.catalogservice.api.controller;
 
-import com.example.catalogservice.api.client.MovieServiceClient;
-import com.example.catalogservice.domain.model.Movie;
+import com.lipollis.catalogservice.api.client.MovieServiceClient;
+import com.lipollis.catalogservice.model.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

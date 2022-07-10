@@ -1,6 +1,6 @@
 package com.lipollis.catalogservice.repository;
 
-import com.example.catalogservice.domain.model.Movie;
+import com.lipollis.catalogservice.model.Movie;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

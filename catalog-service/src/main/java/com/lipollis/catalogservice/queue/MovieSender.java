@@ -1,6 +1,6 @@
 package com.lipollis.catalogservice.queue;
 
-import com.example.catalogservice.domain.model.Movie;
+import com.lipollis.catalogservice.model.Movie;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ public class MovieSender {
 	@Autowired
 	private RabbitTemplate rabbitTemplate;
 
-	@Autowired
+//	@Autowired
 	private Queue movieQueue;
 
 	public void send(Movie movie) {

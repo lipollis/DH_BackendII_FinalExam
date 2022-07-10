@@ -1,7 +1,7 @@
 package com.lipollis.catalogservice.service;
 
-import com.example.catalogservice.domain.model.Movie;
-import com.example.catalogservice.repository.MovieRepository;
+import com.lipollis.catalogservice.model.Movie;
+import com.lipollis.catalogservice.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
