@@ -1,5 +1,5 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
-ARG JAR_FILE=target/configserver.jar
+ARG JAR_FILE=target/seriesservice.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
-EXPOSE 8888
+EXPOSE 8003
