@@ -12,13 +12,16 @@ cd ..
 cd catalog-service
 mvn clean package -DskipTests
 cd ..
-cd eureka-service
+cd eureka-server
 mvn clean package -DskipTests
 cd ..
 cd movie-service
 mvn clean package -DskipTests
 cd ..
 cd server-config
+mvn clean package -DskipTests
+cd ..
+cd serie-service
 mvn clean package -DskipTests
 cd ..
 

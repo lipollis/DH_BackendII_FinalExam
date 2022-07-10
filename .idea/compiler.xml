@@ -2,16 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
-        <module name="series-service" />
-        <module name="catalog-service" />
         <module name="api-gateway" />
+        <module name="config-server" />
         <module name="movie-service" />
         <module name="eureka-server" />
+        <module name="serie-service" />
+        <module name="catalog-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="config-server" target="11" />
       <module name="eureka-server" target="11" />
       <module name="movie-service" target="11" />
+      <module name="serie-service" target="11" />
       <module name="series-service" target="11" />
       <module name="zipkin-server" target="11" />
     </bytecodeTargetLevel>
@@ -31,6 +33,7 @@
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="movie-service" options="-parameters" />
+      <module name="serie-service" options="-parameters" />
       <module name="series-service" options="-parameters" />
       <module name="zipkin-server" options="-parameters" />
     </option>
