@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lipollis</groupId>
-	<artifactId>series-service</artifactId>
+	<artifactId>serie-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>series-service</name>
+	<name>serie-service</name>
 	<description>Configuração e implementação de microsserviço</description>
 	<properties>
 		<java.version>11</java.version>
@@ -70,7 +70,17 @@
 			<version>1.18.22</version>
 			<scope>provided</scope>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>3.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 	<dependencyManagement>
 		<dependencies>

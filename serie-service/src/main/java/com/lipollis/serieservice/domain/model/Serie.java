@@ -11,7 +11,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Movie implements Serializable {
+public class Serie implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
@@ -25,6 +25,6 @@ public class Movie implements Serializable {
 	private String genre;
 
 	@Basic (fetch = FetchType.LAZY)
-	private String urlStream;
+	private String seasons;
 
 }

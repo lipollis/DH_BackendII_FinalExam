@@ -1,13 +1,13 @@
 server:
   port: 8003
   servlet:
-    context-path: /series/
+    context-path: /serie/
 
 spring:
   application:
-    name: series-service
-#  zipkin:
-#    base-url: http://zipkin-service:9411/
+    name: serie-service
+  zipkin:
+    base-url: http://zipkin-service:9411/
 #  datasource:
 #    url: jdbc:h2:mem:testdb
 #    driverClassName: org.h2.Driver

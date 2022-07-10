@@ -5,12 +5,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class MovieDto {
+public class SerieDto {
 
     private Long id;
     private String name;
     private String genre;
-    private String urlStream;
+    private String seasons;
 
 
 }
